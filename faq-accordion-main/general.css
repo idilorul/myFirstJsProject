@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid--2-cols {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.faqs {
+    display: flex;
+    gap: 1rem;
+}
+
+.icon__stars {
+    width: 1.8rem;
+}
+
+.questions__class__one {
+    display: flex;
+    gap: 2rem;
+}
+
+.questions__class__two {
+    display: flex;
+    gap: 15.8rem;
+}
+
+.exmp__one__icon {
+    width: 1.5rem;
+    margin-left: 5rem;
+}
+
+.exmp__two__icon {
+    width: 1.5rem;
+}
+
+.exmp__three__icon {
+    width: 1.5rem;
+    margin-left: 4.5rem;
+}
+
+.exmp__four__icon {
+    width: 1.5rem;
+    margin-left: 0.3rem;
+}
+
+.hr__one {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
